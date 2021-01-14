@@ -40,7 +40,6 @@ public class SchedulesWinForms {
 
         ObservableList<String> x = Reader();
         List.setItems(x);
-        System.out.println("Sas");
 
         List.setOnMouseClicked(event -> {
             String selectedItem = List.getSelectionModel().getSelectedItem();
